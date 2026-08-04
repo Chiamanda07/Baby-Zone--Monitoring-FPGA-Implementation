@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../simple_edge/simple_edge.srcs/sources_1/new/edge_simplified.v" \
+"../../../../full_pipeline.srcs/sources_1/new/grayscale.v" \
+"../../../../full_pipeline.srcs/sources_1/new/line_buffer.v" \
+"../../../../../single_threshold/single_threshold.srcs/sources_1/new/threshold.v" \
+"../../../../../timer/timer.srcs/sources_1/new/timer.v" \
+"../../../../full_pipeline.srcs/sources_1/new/top.v" \
+"../../../../../zone_detection/zone_detection.srcs/sources_1/new/zone_detect.v" \
+"../../../../full_pipeline.srcs/sim_1/new/image_comparison_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+,,,,,,image_comparison_tb,,,,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sim_1/new/top_tb.v,1785440400,verilog,,,,top_tb,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/grayscale.v,1784755883,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/line_buffer.v,,grayscale,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/line_buffer.v,1785441303,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/single_threshold/single_threshold.srcs/sources_1/new/threshold.v,,line_buffer,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/top.v,1785470031,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/zone_detection/zone_detection.srcs/sources_1/new/zone_detect.v,,top,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/simple_edge/simple_edge.srcs/sources_1/new/edge_simplified.v,1783661112,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/grayscale.v,,edge_simplified,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/single_threshold/single_threshold.srcs/sources_1/new/threshold.v,1784754827,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/timer/timer.srcs/sources_1/new/timer.v,,threshold,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/timer/timer.srcs/sources_1/new/timer.v,1785442750,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sources_1/new/top.v,,timer,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/karen/OneDrive/Documents/FPGA_image_project/zone_detection/zone_detection.srcs/sources_1/new/zone_detect.v,1785442156,verilog,,C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sim_1/new/image_comparison_tb.v,,zone_detect,,,../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

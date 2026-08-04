@@ -26,7 +26,8 @@ module top#(
     input [7:0] R, G, B,  // from camera
     input clk,
     input rst,
-    output alert
+    output alert,
+    output [7:0] thresh_out
     );
     
     wire [7:0] gray_pixel;
@@ -36,6 +37,7 @@ module top#(
     wire [10:0] edge_strength;
     wire [7:0] Y;
     wire present;
+    wire end_of_frame;
     
     
     grayscale gray_inst (
@@ -45,7 +47,7 @@ module top#(
         .Y(gray_pixel)
     );
     
-    line_buffer #(.WIDTH(640), .HEIGHT(480)) line_inst (
+    line_buffer #(.WIDTH(320), .HEIGHT(240)) line_inst (
         .clk(clk),
         .rst(rst),
         .pixel_in(gray_pixel),
@@ -84,14 +86,20 @@ module top#(
         .pixel(Y),
         .col(col),
         .row(row),
+        .end_of_frame(end_of_frame),
         .present(present)
     );
     
-    timer timer_inst (
+    timer #(
+        .timer_thresh(600)
+        )timer_inst (
         .clk(clk),
         .rst(rst),
+        .end_of_frame(end_of_frame),
         .present(present),
         .alert(alert)
     );
     
+    // for the simulation that I'm using  to compare threshold outputs between verilog and open cv
+    assign thresh_out = Y;
 endmodule

@@ -62,6 +62,8 @@ module line_buffer #(
                 buf_select <= (buf_select == 2) ? 0 : buf_select + 1;
                 if (row_count < HEIGHT-1)
                     row_count <= row_count + 1;
+                else
+                    row_count <= 0;
             end else
                 col_count <= col_count + 1;
         end

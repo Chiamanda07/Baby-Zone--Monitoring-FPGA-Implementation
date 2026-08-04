@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Image loaded successfully
+Streaming 76800 pixels through pipeline...
+Thresholded output saved to thresh_out.hex
+Alert = 0
+Pixels captured = 76800
+$finish called at time : 774510 ns : File "C:/Users/karen/OneDrive/Documents/FPGA_image_project/full_pipeline/full_pipeline.srcs/sim_1/new/image_comparison_tb.v" Line 107
+The simulator has terminated in an unexpected manner with exit code 1073807364.  Please review the simulation log (xsim.log) for details.
