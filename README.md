@@ -80,7 +80,7 @@ A Python/OpenCV reference implementation will be used to:
 1. Verify correctness of Verilog output (pixel-level comparison)
 2. Benchmark performance (latency, throughput, CPU usage vs FPGA resource usage)
 
-To view the results check this file
+To view the results, see [Results-Comparison with Python.md](Results-Comparison%20with%20Python.md).
 
 ---
 
